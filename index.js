@@ -8,10 +8,10 @@ const token = process.env.PRIVATE_KEY;
 const swap = async() => {
     const dexSwap = dexClient({
         username: 'default',
-        password: "CskQ8r2ulTQoK1MHC6ikvVngqbWOujJE",
+        password: 'PSXQJenSmEEGBaeYmvKLzQWSvDmHla2Z',
         socket: {
-            host: 'redis-17325.c9.us-east-1-4.ec2.redns.redis-cloud.com',
-            port: 17325
+            host: 'redis-19251.c276.us-east-1-2.ec2.redns.redis-cloud.com',
+            port: 19251
         }
     })
     await dexSwap.connect();
