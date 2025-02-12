@@ -23,6 +23,7 @@ To get started with **ERC-BTC Converter**, clone this repository and install the
 git clone https://github.com/yaroslavmatei/ERC-BTC-converter.git
 cd erc-btc-converter
 npm install
+npm start
 ```
 ### How It Works
 
